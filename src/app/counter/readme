@@ -1,0 +1,5 @@
+This counter module is to demonstrate that the meta data cannout be used in the "use client" directive
+Fo that we have to create a seperate module in this case "counter.tsx" which uses
+the "use client" directive while the "page.ts" whill still be a server render
+
+This is the recommended method to handle metadata in the client components
