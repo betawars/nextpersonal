@@ -7,6 +7,8 @@ export default function Home(){
         <div>
             <Link href="/login">Login</Link>
             <h1>Home</h1>
+            <Link href="/articles/123?lang=en">Articles in English</Link>
+            <Link href="/articles/123?lang=fr">Articles in French</Link>
             <Link href="/blog">Blog</Link>
             <Link href="/product">Product</Link>
         </div>
