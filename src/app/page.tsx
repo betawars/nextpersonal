@@ -5,6 +5,7 @@ import Link from "next/link";
 export default function Home(){
     return (
         <div>
+            <Link href="/login">Login</Link>
             <h1>Home</h1>
             <Link href="/blog">Blog</Link>
             <Link href="/product">Product</Link>
