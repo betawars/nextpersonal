@@ -1,6 +1,7 @@
 //This file cotains the example for how when the layout is set, it will be applied through out the project
 
 import { Metadata } from "next"
+import { ErrorWrapper } from "./error-wrapper"
 
 //This file also contains the example to use the title object instead of the simple string in the tile field
 export const metadata: Metadata = {
@@ -26,7 +27,8 @@ export default function RootLayout({
         >
           <p>header</p>
         </header>
-        {children}
+        <ErrorWrapper>{children}</ErrorWrapper>
+        
         <footer
           style={{
             backgroundColor:"lightgoldenrodyellow"

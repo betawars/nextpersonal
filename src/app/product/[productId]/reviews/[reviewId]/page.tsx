@@ -1,4 +1,4 @@
-import { notFound, redirect } from "next/navigation";
+import { redirect } from "next/navigation";
 
 function getRandomInt(count:number){
     return Math.floor(Math.random()*count)
